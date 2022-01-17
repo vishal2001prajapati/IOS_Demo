@@ -3,7 +3,7 @@ import UIKit
 var name = "vishal"
 print(name)
 
-//var in we can change tje value
+//var in we can change the value
 var a = 21 //require space after assigniung the value other wise give the error
 print(a)
 a=22
@@ -20,7 +20,8 @@ print(c)
 print("The value of c is=",c) // (,) concatination in used
 var d:String = "this is string"
 print(d)
-var e:  Character = "V"
+var e:  Character? = "V"
+e = nil
 print(e)
 let h: Bool = true
 print(h)
@@ -72,10 +73,10 @@ repeat{ // first it print after it check the condition
 }while(v <= s)
 
 //function
-func method1(sname: String, age: Int){
-    print("name is:\(sname) and age is:\(age)")
+func method1(sname: String?, age: Int){
+    print("name is:\(sname ?? "") and age is:\(age)")
 }
-method1(sname: "vishal",age: 21)
+method1(sname: nil,age: 21)
 
 func method2() ->Int
 {
@@ -90,7 +91,7 @@ arr[3] = 55 //change the value of array
 print(arr.count)
 print(arr.remove(at: 2)) //98 is remove
 
-// Dictionary skeep
+
 
 
 //set ->can't store the duplicate value twice unlike array
@@ -102,9 +103,121 @@ print(setvalue.insert(100))
 print(setvalue.union(setvalue1))
 print(setvalue.subtracting(setvalue1))
 
-//Closure ->same as function
+//Closure ->same as function and task finish give notification
 let fun1 = {
    print("Hi am Closure")
 }
 fun1()
+//parameter
+let fun2 :(String) ->() =
+{
+    app in print("hello \(app)")
+}
+fun2("IOS")
 
+// Dictionary -> key and value
+let dic1:[String:Int] = [:] //empty
+print(dic1)
+let dic:[String:Int] = ["Parth":1,"Vishal":2,"Anuj":25,"Raj":20]
+let dic2:[Int:String] = [1:"Parth",2:"Vishal",25:"Anuj",20:"Raj"]
+print(dic)
+print(dic2)
+print(dic.count)
+print(dic2.isEmpty)
+print(dic["Anuj"])
+for(k,v) in dic{
+    print("key=\(k) value=\(v)")
+}
+//Enumeration -> user-defined data type
+enum gendr {
+    case male,female,other
+}
+var id = gendr.female
+id = .female
+switch(id){
+    case .male:
+    print("Male")
+    case .female:
+    print("Female")
+    case .other:
+    print("Other")
+}
+
+    //structure -> easy way to change the value
+struct mark{
+    var m1: Int
+    var m2: Int
+    var m3: Int
+}
+ let parth = mark(m1: 20, m2: 19, m3: 15)
+let anuj = mark(m1: 20, m2: 19, m3: 15)
+var ch = parth
+ch.m2 = 16
+print(parth)
+print(ch)
+
+//class
+class employee{
+    var salary : Int
+    init(salary : Int){ //constructor
+        self.salary = salary
+    }
+    func salaryEm(){
+        print("salary is:\(salary)")
+    }
+}
+var Em = employee(salary: 30000)
+Em.salaryEm()
+
+//lazy properties -> run time access memory
+class mes1{
+    lazy var mes : String = "lazy example"
+    func sam1(){
+        print(mes)
+    }
+}
+var ob1 = mes1()
+print(ob1.mes)
+
+//computed properties skeep
+
+//Methods
+//Instance method
+class Instance {
+    func instancemethod(){
+        print("Instance call")
+    }
+}
+var instance = Instance()
+instance.instancemethod() // instance call
+// self properties
+class empl{
+    var salary : Int
+    init(salary : Int){ //constructor
+        self.salary = salary
+    }
+    func salaryEm(){
+        print("salary is:\(salary)")
+    }
+}
+var em = empl(salary: 30000)
+em.salaryEm()
+
+//internal and external parameter
+func mul(x a:Int, y b:Int) -> Int
+{
+    let res:Int = a * b
+    return res
+}
+var re:Int = mul(x: 15, y: 2)
+print(re)
+
+//subscript -> without function call retrive the value
+class Count {
+    var count = ["abc", "xyz", "qwe", "zxc"]
+    subscript(index: Int) -> String{
+        return count[index]
+    }
+}
+let cou = Count()
+print(cou[2])
