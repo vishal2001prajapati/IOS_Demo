@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3712E8DB27E9CC800066BCB8 /* PulltoRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712E8DA27E9CC800066BCB8 /* PulltoRefreshViewController.swift */; };
+		3712E8DD27E9E38C0066BCB8 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712E8DC27E9E38C0066BCB8 /* ImagePickerViewController.swift */; };
 		374D075827B2302600D4F2C6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D075727B2302600D4F2C6 /* ThirdViewController.swift */; };
+		375AF13827EDBB3A006711A1 /* ToolBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AF13727EDBB3A006711A1 /* ToolBarViewController.swift */; };
+		3762310527EB260F00E70CB7 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762310427EB260F00E70CB7 /* WKWebViewController.swift */; };
+		3772A4E827E8370E00BFA75D /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772A4E727E8370E00BFA75D /* CollectionViewController.swift */; };
+		3772A4EA27E8513800BFA75D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772A4E927E8513800BFA75D /* CollectionViewCell.swift */; };
 		377E708E27B2A48000D46B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E708D27B2A48000D46B6B /* Main.storyboard */; };
+		3795205327E3097300FFEB31 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795205227E3097300FFEB31 /* TableViewViewController.swift */; };
+		3795205527E3522900FFEB31 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795205427E3522900FFEB31 /* MovieData.swift */; };
+		3795205727E358D700FFEB31 /* MovieDataViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795205627E358D700FFEB31 /* MovieDataViewCell.swift */; };
 		37B7D1852786BB0100E59101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7D1842786BB0100E59101 /* AppDelegate.swift */; };
 		37B7D1872786BB0100E59101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7D1862786BB0100E59101 /* SceneDelegate.swift */; };
 		37B7D1892786BB0100E59101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7D1882786BB0100E59101 /* ViewController.swift */; };
@@ -17,6 +26,11 @@
 		37B7D19C2786BB0200E59101 /* IOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7D19B2786BB0200E59101 /* IOS_AppTests.swift */; };
 		37B7D1A62786BB0200E59101 /* IOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7D1A52786BB0200E59101 /* IOS_AppUITests.swift */; };
 		37B7D1A82786BB0200E59101 /* IOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7D1A72786BB0200E59101 /* IOS_AppUITestsLaunchTests.swift */; };
+		37BB7E9D27E0927B0030B132 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB7E9C27E0927B0030B132 /* SliderViewController.swift */; };
+		37BB7E9F27E0BE8E0030B132 /* segmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB7E9E27E0BE8E0030B132 /* segmentViewController.swift */; };
+		37CC01BD27EB113400424A42 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC01BC27EB113400424A42 /* ActivityIndicatorViewController.swift */; };
+		37F9A97A27F1974D000CDEDA /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9A97927F1974D000CDEDA /* DatePickerViewController.swift */; };
+		37F9A97C27F1CD09000CDEDA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9A97B27F1CD09000CDEDA /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3712E8DA27E9CC800066BCB8 /* PulltoRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulltoRefreshViewController.swift; sourceTree = "<group>"; };
+		3712E8DC27E9E38C0066BCB8 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		374D075727B2302600D4F2C6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = SOURCE_ROOT; };
+		375AF13727EDBB3A006711A1 /* ToolBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarViewController.swift; sourceTree = "<group>"; };
+		3762310427EB260F00E70CB7 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		3772A4E727E8370E00BFA75D /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		3772A4E927E8513800BFA75D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		377E708D27B2A48000D46B6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3795205227E3097300FFEB31 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
+		3795205427E3522900FFEB31 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		3795205627E358D700FFEB31 /* MovieDataViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataViewCell.swift; sourceTree = "<group>"; };
 		37B7D1812786BB0100E59101 /* IOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B7D1842786BB0100E59101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B7D1862786BB0100E59101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +74,11 @@
 		37B7D1A12786BB0200E59101 /* IOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B7D1A52786BB0200E59101 /* IOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_AppUITests.swift; sourceTree = "<group>"; };
 		37B7D1A72786BB0200E59101 /* IOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37BB7E9C27E0927B0030B132 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		37BB7E9E27E0BE8E0030B132 /* segmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentViewController.swift; sourceTree = "<group>"; };
+		37CC01BC27EB113400424A42 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		37F9A97927F1974D000CDEDA /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		37F9A97B27F1CD09000CDEDA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +106,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37918E4E27F41264001F4E54 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				37F9A97B27F1CD09000CDEDA /* MapViewController.swift */,
+				37F9A97927F1974D000CDEDA /* DatePickerViewController.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		37918E4F27F41283001F4E54 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3795205227E3097300FFEB31 /* TableViewViewController.swift */,
+				3795205427E3522900FFEB31 /* MovieData.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		37918E5127F4135C001F4E54 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3772A4E927E8513800BFA75D /* CollectionViewCell.swift */,
+				3772A4E727E8370E00BFA75D /* CollectionViewController.swift */,
+				3795205627E358D700FFEB31 /* MovieDataViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		37B7D1782786BB0100E59101 = {
 			isa = PBXGroup;
 			children = (
+				37918E5127F4135C001F4E54 /* CollectionView */,
 				37B7D1832786BB0100E59101 /* IOS App */,
 				37B7D19A2786BB0200E59101 /* IOS AppTests */,
 				37B7D1A42786BB0200E59101 /* IOS AppUITests */,
@@ -101,6 +158,8 @@
 		37B7D1832786BB0100E59101 /* IOS App */ = {
 			isa = PBXGroup;
 			children = (
+				37918E4F27F41283001F4E54 /* TableView */,
+				37918E4E27F41264001F4E54 /* MapView */,
 				374D075727B2302600D4F2C6 /* ThirdViewController.swift */,
 				37B7D1842786BB0100E59101 /* AppDelegate.swift */,
 				37B7D1862786BB0100E59101 /* SceneDelegate.swift */,
@@ -109,6 +168,13 @@
 				377E708D27B2A48000D46B6B /* Main.storyboard */,
 				37B7D18F2786BB0200E59101 /* LaunchScreen.storyboard */,
 				37B7D1922786BB0200E59101 /* Info.plist */,
+				37BB7E9C27E0927B0030B132 /* SliderViewController.swift */,
+				37BB7E9E27E0BE8E0030B132 /* segmentViewController.swift */,
+				3712E8DA27E9CC800066BCB8 /* PulltoRefreshViewController.swift */,
+				3712E8DC27E9E38C0066BCB8 /* ImagePickerViewController.swift */,
+				37CC01BC27EB113400424A42 /* ActivityIndicatorViewController.swift */,
+				3762310427EB260F00E70CB7 /* WKWebViewController.swift */,
+				375AF13727EDBB3A006711A1 /* ToolBarViewController.swift */,
 			);
 			path = "IOS App";
 			sourceTree = "<group>";
@@ -261,10 +327,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3762310527EB260F00E70CB7 /* WKWebViewController.swift in Sources */,
 				37B7D1892786BB0100E59101 /* ViewController.swift in Sources */,
+				3795205727E358D700FFEB31 /* MovieDataViewCell.swift in Sources */,
+				3712E8DB27E9CC800066BCB8 /* PulltoRefreshViewController.swift in Sources */,
+				37BB7E9D27E0927B0030B132 /* SliderViewController.swift in Sources */,
 				37B7D1852786BB0100E59101 /* AppDelegate.swift in Sources */,
+				3772A4E827E8370E00BFA75D /* CollectionViewController.swift in Sources */,
 				374D075827B2302600D4F2C6 /* ThirdViewController.swift in Sources */,
+				375AF13827EDBB3A006711A1 /* ToolBarViewController.swift in Sources */,
+				3712E8DD27E9E38C0066BCB8 /* ImagePickerViewController.swift in Sources */,
+				3795205527E3522900FFEB31 /* MovieData.swift in Sources */,
+				37BB7E9F27E0BE8E0030B132 /* segmentViewController.swift in Sources */,
+				37F9A97A27F1974D000CDEDA /* DatePickerViewController.swift in Sources */,
+				37F9A97C27F1CD09000CDEDA /* MapViewController.swift in Sources */,
 				37B7D1872786BB0100E59101 /* SceneDelegate.swift in Sources */,
+				37CC01BD27EB113400424A42 /* ActivityIndicatorViewController.swift in Sources */,
+				3795205327E3097300FFEB31 /* TableViewViewController.swift in Sources */,
+				3772A4EA27E8513800BFA75D /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
