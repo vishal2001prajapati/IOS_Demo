@@ -7,7 +7,7 @@ target 'IOS App' do
 
   # Pods for IOS App
   pod 'Alamofire'
-
+  
   target 'IOS AppTests' do
     inherit! :search_paths
     # Pods for testing
