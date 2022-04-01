@@ -705,10 +705,10 @@
             </objects>
             <point key="canvasLocation" x="-6628" y="-2229"/>
         </scene>
-        <!--View Controller-->
+        <!--Navigation View Controller-->
         <scene sceneID="Hmv-n7-VOj">
             <objects>
-                <viewController id="5Fr-6f-1Ba" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavigationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Fr-6f-1Ba" customClass="NavigationViewController" customModule="IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RLD-gc-CJg">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -785,6 +785,14 @@
                                     <segue destination="HLo-yr-yHI" kind="show" id="9hw-Ao-Ok9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4z-2r-a5x">
+                                <rect key="frame" x="20" y="451" width="350" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Navigation Controller"/>
+                                <connections>
+                                    <action selector="navigationAction:" destination="5Fr-6f-1Ba" eventType="touchUpInside" id="3Iy-G0-0Hm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7Nv-uw-Th7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -799,6 +807,7 @@
                             <constraint firstItem="7Nv-uw-Th7" firstAttribute="trailing" secondItem="M8v-6G-cWJ" secondAttribute="trailing" constant="20" id="Grk-xE-2za"/>
                             <constraint firstItem="Kpa-j8-yrE" firstAttribute="top" secondItem="27k-Gb-BGh" secondAttribute="bottom" constant="5" id="IOQ-2a-pTs"/>
                             <constraint firstItem="7Nv-uw-Th7" firstAttribute="trailing" secondItem="nQT-dr-I1s" secondAttribute="trailing" constant="20" id="KH8-pX-azY"/>
+                            <constraint firstItem="G4z-2r-a5x" firstAttribute="leading" secondItem="7Nv-uw-Th7" secondAttribute="leading" constant="20" id="NnP-qf-Uge"/>
                             <constraint firstItem="M8v-6G-cWJ" firstAttribute="leading" secondItem="7Nv-uw-Th7" secondAttribute="leading" constant="20" id="SEr-Tn-674"/>
                             <constraint firstItem="xzt-I2-XXK" firstAttribute="top" secondItem="Qoy-DX-zgx" secondAttribute="bottom" constant="5" id="TCN-L8-YZ1"/>
                             <constraint firstItem="7Nv-uw-Th7" firstAttribute="trailing" secondItem="S3P-am-ww4" secondAttribute="trailing" constant="20" id="VJJ-o7-vhB"/>
@@ -810,10 +819,12 @@
                             <constraint firstItem="WwR-dK-GqK" firstAttribute="width" secondItem="Kpa-j8-yrE" secondAttribute="width" id="ebN-8t-hTz"/>
                             <constraint firstItem="7Nv-uw-Th7" firstAttribute="trailing" secondItem="eeI-oR-m36" secondAttribute="trailing" constant="20" id="goC-qe-jcr"/>
                             <constraint firstItem="27k-Gb-BGh" firstAttribute="height" secondItem="nQT-dr-I1s" secondAttribute="height" id="gub-Tx-eRx"/>
+                            <constraint firstItem="G4z-2r-a5x" firstAttribute="top" secondItem="S3P-am-ww4" secondAttribute="bottom" constant="5" id="hj7-Mp-Iz3"/>
                             <constraint firstItem="Qoy-DX-zgx" firstAttribute="leading" secondItem="M8v-6G-cWJ" secondAttribute="leading" id="hnx-mL-kLd"/>
                             <constraint firstItem="7Nv-uw-Th7" firstAttribute="trailing" secondItem="xzt-I2-XXK" secondAttribute="trailing" constant="20" id="iRT-7g-6B0"/>
                             <constraint firstItem="WwR-dK-GqK" firstAttribute="leading" secondItem="Kpa-j8-yrE" secondAttribute="leading" id="kca-gK-bUb"/>
                             <constraint firstItem="eeI-oR-m36" firstAttribute="leading" secondItem="7Nv-uw-Th7" secondAttribute="leading" constant="20" id="lvS-uj-i1c"/>
+                            <constraint firstItem="7Nv-uw-Th7" firstAttribute="trailing" secondItem="G4z-2r-a5x" secondAttribute="trailing" constant="20" id="nJ4-3g-zmJ"/>
                             <constraint firstItem="Qoy-DX-zgx" firstAttribute="top" secondItem="M8v-6G-cWJ" secondAttribute="bottom" constant="5" id="ov8-8P-6Fu"/>
                             <constraint firstItem="27k-Gb-BGh" firstAttribute="leading" secondItem="nQT-dr-I1s" secondAttribute="leading" id="tZo-Se-47J"/>
                             <constraint firstItem="eeI-oR-m36" firstAttribute="top" secondItem="xzt-I2-XXK" secondAttribute="bottom" constant="5" id="vht-No-j0R"/>
@@ -1241,7 +1252,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Bio">
                                         <attributes>
-                                            <font key="NSFont" metaFont="toolTip"/>
+                                            <font key="NSFont" usesAppearanceFont="YES"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
