@@ -9,7 +9,7 @@ import UIKit
 class MainVCCordinator: Coordinator {
     var navController: UINavigationController
     
-     init(_ navigationController: UINavigationController) {
+    init(_ navigationController: UINavigationController) {
         navController = navigationController
     }
     
@@ -27,8 +27,8 @@ class MainVCCordinator: Coordinator {
     func stop() {
         
     }
-
+    
     func finishToRoot() {
         
     }
-    }
+}

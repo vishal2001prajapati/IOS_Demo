@@ -20,6 +20,11 @@ class SecondVCCoordinator: Coordinator {
             navController.pushViewController(secondVC, animated: true)
         }
     }
+    
+    func startWithData(_ data: String) {
+        
+
+    }
   
     func stop() {
         

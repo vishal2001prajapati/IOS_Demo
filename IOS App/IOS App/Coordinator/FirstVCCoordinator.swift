@@ -10,7 +10,7 @@ import UIKit
 class FirstVCCoordinator: Coordinator {
     var navController: UINavigationController
     
-     init(_ navigationController: UINavigationController) {
+    init(_ navigationController: UINavigationController) {
         navController = navigationController
     }
     
@@ -20,16 +20,16 @@ class FirstVCCoordinator: Coordinator {
             navController.pushViewController(firstVC, animated: true)
         }
     }
-    func goToSecondVC() {
-        let secondVC = SecondVCCoordinator(nav: navController)
-        secondVC.start()
+    func goToSecondVC(_ data: String) {
+        if  let secondVC = UIStoryboard(name: "UIFirstStoryboard", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController" ) as? SecondViewController {
+            secondVC.text = data
+            navController.present(secondVC, animated: true, completion: nil)
+        }
     }
     
     func stop() {
-        
     }
-
+    
     func finishToRoot() {
-        
     }
-    }
+}

@@ -11,6 +11,7 @@ class FirstNavigationViewController: UIViewController {
 
     //MARK: - OutLets And Variables
     @IBOutlet weak var textTransfer: UITextField!
+    
     var coordinator: FirstVCCoordinator?
     
         
@@ -21,6 +22,9 @@ class FirstNavigationViewController: UIViewController {
     }
     
     @IBAction func secondVC(_ sender: UIButton) {
-        coordinator?.goToSecondVC()
+        if let data = textTransfer.text{
+            coordinator?.goToSecondVC(data)
+        }
+        
     }
 }

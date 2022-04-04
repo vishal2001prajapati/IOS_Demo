@@ -36,8 +36,7 @@
                             <constraint firstItem="kWT-kj-WgR" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="3pZ-Qu-U6T"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="kWT-kj-WgR" secondAttribute="trailing" constant="50" id="4xY-uy-KLl"/>
                             <constraint firstItem="8zs-nx-Otk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="116" id="8et-QA-J7q"/>
-                            <constraint firstItem="8zs-nx-Otk" firstAttribute="top" secondItem="kWT-kj-WgR" secondAttribute="bottom" constant="74" id="Ff7-hT-C0u"/>
-                            <constraint firstItem="8zs-nx-Otk" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="331" id="V62-uO-8d2"/>
+                            <constraint firstItem="8zs-nx-Otk" firstAttribute="top" secondItem="kWT-kj-WgR" secondAttribute="bottom" constant="74" id="Olf-Eg-elb"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8zs-nx-Otk" secondAttribute="trailing" constant="131" id="e6f-Wm-H9c"/>
                             <constraint firstItem="kWT-kj-WgR" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="223" id="uEI-fG-0Tc"/>
                         </constraints>
@@ -74,7 +73,11 @@
                             <constraint firstItem="jyn-pk-aiN" firstAttribute="top" secondItem="RHi-6n-Bk7" secondAttribute="top" constant="111" id="zsb-t1-STd"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Account" id="fJW-K7-nLz"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Account" largeTitleDisplayMode="always" id="Ryg-nv-dnj">
+                        <barButtonItem key="backBarButtonItem" title="Item" id="oyV-sR-1Vk"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lblText" destination="jyn-pk-aiN" id="8FA-8C-vR3"/>
                     </connections>
@@ -82,6 +85,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YWR-G1-xsW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2612" y="72"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D23-FT-8Ar">
+            <objects>
+                <viewController id="ow7-Ov-w6G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gPW-kT-h8N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EA3-Im-M7h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uE3-OZ-Jws" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3288" y="72"/>
         </scene>
     </scenes>
     <resources>

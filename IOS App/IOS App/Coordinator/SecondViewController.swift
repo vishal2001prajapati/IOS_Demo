@@ -18,5 +18,6 @@ class SecondViewController: UIViewController {
         if text != nil {
             lblText.text = text
         }
+        
     }
 }
