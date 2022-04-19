@@ -3,8 +3,10 @@
 //  Created by Vishal Prajapati on 28/01/22.
 import UIKit
 class ViewController: UIViewController {
+    
     //MARK:- outlate variable
     @IBOutlet weak var labeldisplay: UILabel!
+    
     //MARK:- variable
     var labelstr : String! = nil
     override func viewDidLoad() {
